@@ -44,18 +44,24 @@ body {
     overflow: hidden;
     margin: -50 auto -30 auto;
     border: 5px solid hsl(0, 0%, 100%);
+    position: absolute;
+    top: -104px;
+    left: 125px;
+
 }
 
 .img-sec img {
     display: block;
     height: auto;
     width: 100%;
+    top: -107px;
 }
 .card-body {
     margin-top: 54px;
     margin-bottom: -75px;
     height: 250px;
     line-height: 1.8rem;
+    position: relative;
 
 }
 .card-body .name {
